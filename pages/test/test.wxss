@@ -1,0 +1,14 @@
+/* pages/test/test.wxss */
+.scrollBox {
+  /* border: 1px solid grey; */
+  display: flex;
+  flex-wrap: nowrap;
+  width: auto;
+}
+.scrollItem{
+  width: 100px;
+  height: 100px;
+  margin: 2px;
+  flex: none;
+  background-color: hotpink;
+}

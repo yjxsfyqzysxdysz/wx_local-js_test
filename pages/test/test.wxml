@@ -1,0 +1,16 @@
+<!--pages/test/test.wxml-->
+<view class="container">test 内容</view>
+
+
+<text decode="{{true}}">人之初人之初人之初人之初l&nbsp;&lt;人之初人之初人之初人之初人之初人之初人之初人之初人之初人之初人之初人之初人之初人之初人之初人之初人之初人之初人之初人之初人之初</text>
+
+<scroll-view scroll-x style="border: 1px solid grey;">
+  <view class="scrollBox">
+    <view class="scrollItem">111</view>
+    <view class="scrollItem">222</view>
+    <view class="scrollItem">333</view>
+    <view class="scrollItem">444</view>
+    <view class="scrollItem">555</view>
+  </view>
+</scroll-view>
+<button type="primary">submit</button>
