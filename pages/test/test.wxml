@@ -1,8 +1,42 @@
 <!--pages/test/test.wxml-->
+<swiper indicator-dots autoplay circular interval="{{3000}}" easing-function="easeInCubic">
+  <swiper-item>
+    <image src="//i0.hdslb.com/bfs/article/3a9b3fae5344dd10e5e4a9421ba3011c535a96d4.jpg@1320w_770h.webp" webp
+      mode="heightFix" style="background-color: #eee;"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="//i0.hdslb.com/bfs/article/b0bf7c26eb85acae869ea9c0b9f946ede7f80f75.jpg@1320w_1744h.webp" webp
+      mode="aspectFit" style="background-color: #eee;"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="//i0.hdslb.com/bfs/article/03f0315357c121278b9376e08aeccfff79ea4111.jpg@1320w_2094h.webp" webp
+      mode="aspectFit" style="background-color: #eee;"></image>
+  </swiper-item>
+  <swiper-item>
+    <image src="//i0.hdslb.com/bfs/article/eb428f39bc589e74c69845ca50d06dd80417396c.jpg@1320w_1868h.webp" webp
+      mode="aspectFit" style="background-color: #eee;"></image>
+  </swiper-item>
+</swiper>
+<view class="page-section-spacing">
+  <scroll-view scroll-y="true" style="height: 300rpx;" bindscrolltoupper="upper" bindscrolltolower="lower">
+    <view id="demo1" class="scroll-view-item demo-text-1">A</view>
+    <view id="demo2" class="scroll-view-item demo-text-2">B</view>
+    <view id="demo3" class="scroll-view-item demo-text-3">C</view>
+  </scroll-view>
+</view>
+<icon type="success_no_circle"></icon>
+<progress percent="{{100}}" show-info border-radius="5" stroke-width="10" active color="#ac56ef"></progress>
+
+<navigator url="/pages/logs/logs">skip</navigator>
+<image src="https://i0.hdslb.com/bfs/article/088cd143110310f4c14dd3fc8ceb1efeb52bf12e.jpg@1290w_722h.webp" webp
+  mode="widthFix"></image>
 <view class="container">test 内容</view>
 
-
-<text decode="{{true}}">人之初人之初人之初人之初l&nbsp;&lt;人之初人之初人之初人之初人之初人之初人之初人之初人之初人之初人之初人之初人之初人之初人之初人之初人之初人之初人之初人之初人之初</text>
+<view class="box" hover-class="boxHover" hover-start-time="{{200}}">
+  <view class="box-item" hover-class="boxItemHover" hover-stop-propagation="{{false}}"></view>
+</view>
+<text decode="{{true}}"
+  user-select>人之初人之初人之初人之初l&nbsp;&lt;人之初人之初人之初人之初人之初人之初人之初人之初人之初人之初人之初人之初人之初人之初人之初人之初人之初人之初人之初人之初人之初</text>
 
 <scroll-view scroll-x style="border: 1px solid grey;">
   <view class="scrollBox">
