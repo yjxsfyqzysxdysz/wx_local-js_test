@@ -1,19 +1,11 @@
-// pages/logic/logic.js
+// pages/demo3/demo3.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    num: 5,
-    title: "data3",
-    title: "data4",
-    obj: {
-      'name': 'Tome',
-      'age': 18,
-      'sex': 'man'
-    },
-    arr: ['qwe','asd','zxc']
+
   },
 
   /**

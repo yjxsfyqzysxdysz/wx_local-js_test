@@ -1,2 +1,17 @@
-<!--pages/logic/logic.wxml-->
-<text>pages/logic/logic.wxml</text>
+<view wx:for="{{arr}}">{{item}}</view>
+<view wx:if="{{num > 5}}">数据1-1</view>
+<view wx:elif="{{num < 5}}">数据1-2</view>
+<view wx:else>数据1-3</view>
+<!-- <view wx:else="{{num > 6}}">数据1-4</view> -->
+<view>数据2</view>
+<text>{{obj.name}}</text>-<text>{{obj.age}}</text>-<text>{{obj.sex}}</text>
+<view>{{arr}}</view>
+<view>{{arr[3]}}</view>
+<view>{{obj['name']}}</view>
+<block wx:if="{{true}}">
+  <navigator url="/pages/logs/logs">skip1</navigator>
+  <view>llllllallalal</view>
+</block>
+<block wx:else>
+  <navigator url="/pages/index/index">skip2</navigator>
+</block>
