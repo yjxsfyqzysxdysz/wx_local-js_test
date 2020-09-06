@@ -5,7 +5,9 @@
     </view>
     <view class="text">
       <view class="title">{{item.title}}</view>
-      <text class="time">{{item.time}}</text>
+      <text class="time">{{item.time}} - {{item.author}}</text>
     </view>
   </view>
+
+  <button type="primary" bindtap="nextpage">next</button>
 </view>
