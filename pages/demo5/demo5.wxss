@@ -1,0 +1,45 @@
+.out {
+  padding: 30rpx;
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+  height: 150rpx;
+  margin-bottom: 20rpx;
+  overflow: hidden;
+}
+
+.pic {
+  flex: 2;
+}
+
+.pic image {
+  width: 100%;
+  height: 100%;
+}
+
+.text {
+  flex: 8;
+  border-bottom: 1px solid #eee;
+  padding-left: 10rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.text .title {
+  max-height: 100rpx;
+  font-size: 40rpx;
+  word-break: break-all;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+
+}
+
+.text .time {
+  color: #999;
+}

@@ -1,0 +1,11 @@
+<view class="out">
+  <view class="row" wx:for="{{dataList}}" wx:key="index">
+    <view class="pic">
+      <image src="{{item.pic}}"></image>
+    </view>
+    <view class="text">
+      <view class="title">{{item.title}}</view>
+      <text class="time">{{item.time}}</text>
+    </view>
+  </view>
+</view>
