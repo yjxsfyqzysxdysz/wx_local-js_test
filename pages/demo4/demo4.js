@@ -1,17 +1,11 @@
-// pages/demo3/demo3.js
+// pages/demo4/demo4.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    array: [{
-        message: 'foo',
-      },
-      {
-        message: 'bar'
-      }
-    ]
+
   },
 
   /**
