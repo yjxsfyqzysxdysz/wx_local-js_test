@@ -1,3 +1,6 @@
 <!--pages/demo4/demo4.wxml-->
 <text>pages/demo4/demo4.wxml</text>
-<view style="background: #ccc;height: 1000px;"></view>
+<view style="background: #ccc;height: 1000px;">
+  <button bindtap="mytap">click</button>
+  <view>{{title}}</view>
+</view>

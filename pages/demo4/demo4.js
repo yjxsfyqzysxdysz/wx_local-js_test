@@ -5,14 +5,20 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    title: 'default'
   },
-
+  mytap: function (params) {
+    console.log('mytap', params)
+    this.setData({
+      title: 'update'
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    console.log('生命周期函数--监听页面加载')
+    console.log('生命周期函数--监听页面加载', options)
+    console.log(wx.getSystemInfoSync().model)
   },
 
   /**
