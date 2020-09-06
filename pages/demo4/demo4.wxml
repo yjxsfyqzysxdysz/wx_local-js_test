@@ -1,2 +1,3 @@
 <!--pages/demo4/demo4.wxml-->
 <text>pages/demo4/demo4.wxml</text>
+<view style="background: #ccc;height: 1000px;"></view>
